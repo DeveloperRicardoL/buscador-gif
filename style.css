@@ -1,3 +1,24 @@
 body {
   background-color: darkred;
 }
+
+.div-buscar {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+#mostrar-gif {
+  background-color: chartreuse;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.div-img img {
+  width: 100%;
+  height: 14.7rem;
+}
